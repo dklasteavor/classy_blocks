@@ -26,7 +26,7 @@ core = cb.Face(
 )
 
 #core_wedge = cb.Wedge(core)
-core_wedge=cb.Revolve(core,angle=f.deg2rad(5),axis=[1,0,0],origin=[0,0,0])
+core_wedge=cb.wedgeDegen(core)
 
 for i in range(4):
     print(core_wedge.bottom_face.points[i].position[1], -core_wedge.top_face.points[i].position[1])

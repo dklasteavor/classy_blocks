@@ -26,6 +26,7 @@ from .construct.operations.loft import Loft
 from .construct.operations.operation import Operation
 from .construct.operations.revolve import Revolve
 from .construct.operations.wedge import Wedge
+from .construct.operations.wedgeDegen import WedgeDegen
 from .construct.shape import ExtrudedShape, LoftedShape, RevolvedShape, Shape
 from .construct.shapes.cylinder import Cylinder, QuarterCylinder, SemiCylinder
 from .construct.shapes.elbow import Elbow
@@ -135,5 +136,6 @@ __all__ = [
     "TranslationLink",
     "ViewpointReorienter",
     "Wedge",
+    "WedgeDegen",
     "WrappedDisk",
 ]
