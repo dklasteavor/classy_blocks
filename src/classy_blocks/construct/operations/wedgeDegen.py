@@ -6,7 +6,7 @@ from classy_blocks.construct.operations.loft import Loft
 from classy_blocks.util import functions as f
 from classy_blocks.construct import edges
 
-class Wedge(Loft):
+class WedgeDegen(Loft):
     """Revolves 'face' around x-axis symetrically by +/- angle/2.
     By default, the angle is 2 degrees.
 
